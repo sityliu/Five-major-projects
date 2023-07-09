@@ -1,0 +1,1845 @@
+============================================================
+Time  2022/06/24 15:28:55 680 
+============================================================
+[2022/06/24 15:28:55 680] tts        811  SYS_MSG_REGCB param0 =  msp_status_cb  param1 =  func(f4016550) 
+[2022/06/24 15:28:55 681] config     43   use general cloud  
+[2022/06/24 15:28:55 683] tts_cloud  1438 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(f4016550) 
+[2022/06/24 15:28:55 683] tts        782  TTS_MSG_SSB  
+[2022/06/24 15:28:55 683] tts        434  params =  voice_name = xiaoyan, text_encoding = utf8, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2  
+[2022/06/24 15:28:55 683] tts        273  auf=audio/L16;rate=16000  
+[2022/06/24 15:28:55 683] tts        273  auf=audio/L16;rate=16000  
+[2022/06/24 15:28:55 683] tts        475  ssb|use cloud  
+[2022/06/24 15:28:55 683] tts_cloud  1409 SYS_MSG_LOAD_CLOUD  
+[2022/06/24 15:28:55 683] tts_cloud  964  TTS_MSG_SSB_CLOUD  
+[2022/06/24 15:28:55 683] tts_cloud  987  tts  ctts1P1HHBH4Vbx8Hd+Ttaa1p+WxileqBrN  268436457  1573451740  
+[2022/06/24 15:28:55 683] tts_cloud  1033 not login!  
+[2022/06/24 15:28:55 683] tts_cloud  1164 need_decode  true  
+[2022/06/24 15:28:55 683] tts_cloud  1165 aue=  speex-wb;7   auf=  audio/L16;rate=16000  
+[2022/06/24 15:28:55 692] tts_cloud  1187 User set url is   nil  
+[2022/06/24 15:28:55 692] config     91   select default  
+[2022/06/24 15:28:55 692] config     113  use general cloud  
+[2022/06/24 15:28:55 693] transport  645  paramkvsport is   nil  
+[2022/06/24 15:28:55 693] transport  657  ns_enable=  1  
+[2022/06/24 15:28:55 693] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2022/06/24 15:28:55 693] transport  665  net.nettype=  unknown  
+[2022/06/24 15:28:55 693] transport  675  url.full=  nil  
+[2022/06/24 15:28:55 693] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2022/06/24 15:28:55 693] transport  907  net type:  unknown  
+[2022/06/24 15:28:55 693] transport  908  net operator:  def  
+[2022/06/24 15:28:55 693] transport  909  use proxy:  false  
+[2022/06/24 15:28:55 693] transport  1105 session.domain=  open.xf-yun.com  
+[2022/06/24 15:28:55 693] transport  1106 url.host=  open.xf-yun.com  
+[2022/06/24 15:28:55 693] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  59.107.24.5  
+[2022/06/24 15:28:55 693] transport  1159 using cached ip:  59.107.24.5  
+[2022/06/24 15:28:55 693] transport  1179 try preferred port:  nil  
+[2022/06/24 15:28:55 694] transport  1083 NAMESERVER START  
+[2022/06/24 15:28:55 694] transport  1086 name =   tts  
+[2022/06/24 15:28:55 694] ns         634  ntt=  unknown  
+[2022/06/24 15:28:55 694] transport  1089 trans,ns_inprog =  0  
+[2022/06/24 15:28:55 694] ns         582  name server start  
+[2022/06/24 15:28:55 694] ns         588  ns_sub =   tts  
+[2022/06/24 15:28:55 694] ns         596  ns_host =   open.xf-yun.com  
+[2022/06/24 15:28:55 694] ns         475  ns_host=  open.xf-yun.com  
+[2022/06/24 15:28:55 694] ns         555  net_type =  standard  
+[2022/06/24 15:28:55 694] ns         556  cmwapascmnet =  
+[2022/06/24 15:28:55 694] ns         557  uniwapasuninet =  
+[2022/06/24 15:28:55 694] ns         558  ctwapasctnet =  
+[2022/06/24 15:28:55 694] ns         576  host=  hdns.xf-yun.com  
+[2022/06/24 15:28:55 694] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2022/06/24 15:28:55 694] transport  1304 [soc] connect   59.107.24.5  1028  
+[2022/06/24 15:28:55 694] transport  1316 mspsoc.open,prot_type=  tcp  
+[2022/06/24 15:28:55 722] network    245  dns resp  0  ns1  
+[2022/06/24 15:28:55 722] ns         422  ns dns ok  42.62.116.35  
+[2022/06/24 15:28:55 722] ns         202  iplist not avail  
+[2022/06/24 15:28:55 722] ns         429  is_voicecloud_ip=  0  
+[2022/06/24 15:28:55 722] ns         436  ip_is_expected=  true  
+[2022/06/24 15:28:55 722] ns         444  ip_is_expected=  true  
+[2022/06/24 15:28:55 722] network    445  gethttpresp2  42.62.116.35  80  ns2  
+[2022/06/24 15:28:55 722] network    465  prot_type  tcp  
+[2022/06/24 15:28:55 722] tts        789  TTS_MSG_SYN  0  
+[2022/06/24 15:28:55 722] tts        541  synth|use cloud  
+[2022/06/24 15:28:55 722] tts_cloud  1207 TTS_MSG_SYN_CLOUD  
+[2022/06/24 15:28:55 723] tts_cloud  1218 remote_connected =  false  
+[2022/06/24 15:28:55 723] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 723] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 723] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 723] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 723] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 723] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 723] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 723] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 723] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 723] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 723] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 723] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 723] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 723] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 723] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 723] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 723] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 723] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 723] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 723] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 724] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 724] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 724] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 724] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 724] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 724] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 724] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 724] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 724] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 724] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 724] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 724] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 724] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 724] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 724] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 724] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 724] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 724] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 724] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 724] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 724] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 724] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 725] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 725] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 725] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 726] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 726] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 726] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 729] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 729] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 729] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 729] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 729] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 729] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 730] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 730] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 730] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 730] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 730] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 730] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 730] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 730] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 730] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 730] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 730] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 730] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 731] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 731] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 731] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 731] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 731] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 731] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 731] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 731] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 731] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 731] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 731] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 731] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 732] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 732] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 732] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 732] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 732] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 732] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 732] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 732] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 732] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 732] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 733] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 733] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 733] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 733] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 733] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 733] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 733] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 733] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 734] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 734] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 734] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 734] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 734] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 734] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 734] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 734] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 734] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 735] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 735] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 735] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 735] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 735] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 735] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 735] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 735] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 735] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 735] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 735] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 736] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 736] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 736] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 736] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 736] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 736] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 736] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 736] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 736] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 736] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 737] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 737] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 737] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 737] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 737] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 737] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 740] transport  473  [soc] [1] connected  
+[2022/06/24 15:28:55 740] tts_cloud  296  text =  udata(f401f018) 
+[2022/06/24 15:28:55 740] tts_cloud  724  send ssb request  
+[2022/06/24 15:28:55 740] tts_cloud  589  lver:  nil  
+[2022/06/24 15:28:55 740] tts_cloud  594  cfg_ver:  nil  
+[2022/06/24 15:28:55 740] transport  1860 transport_obj.send | in  
+[2022/06/24 15:28:55 740] transport  1866 self.msg_flag_q  table(f4086ee0) 
+[2022/06/24 15:28:55 740] transport  1867 self.msg_q  table(f4086e90) 
+[2022/06/24 15:28:55 740] transport  1799 transport_obj.try2send | in  
+[2022/06/24 15:28:55 740] transport  1800 self.soc  udata(f4096a18) 
+[2022/06/24 15:28:55 741] transport  1801 self.connected  false  
+[2022/06/24 15:28:55 741] transport  1802 self.latesterr  0  
+[2022/06/24 15:28:55 741] transport  1873 transport_obj.send | out  
+[2022/06/24 15:28:55 741] transport  1799 transport_obj.try2send | in  
+[2022/06/24 15:28:55 741] transport  1800 self.soc  udata(f4096a18) 
+[2022/06/24 15:28:55 741] transport  1801 self.connected  true  
+[2022/06/24 15:28:55 741] transport  1802 self.latesterr  0  
+[2022/06/24 15:28:55 741] transport  1819 transport:try2send,#msg_q=  1  
+[2022/06/24 15:28:55 741] transport  1359 build http request.  
+[2022/06/24 15:28:55 741] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: tts
+X-Par: ver=MSSP+0%2E9&sub=tts&cmd=ssb&aue=speex%2Dwb%3B7&auf=audio%2FL16%3Brate%3D16000&cver=5%2E0%2E44%2E1288&net%5Ftype=unknown&csid=ctts1P1HHBH4Vbx8Hd%2BTtaa1p%2BWxileqBrN&key=0c4G4KJ85svIzW8QwC1DDfoA==
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 508
+
+----
+Content-Length:40
+Content-Type:binary/synth+text
+Content-Encoding:gzip,encrypt/0.2
+
+AÄ#úŸzMS‰æ»H˙DAÑÖEJÔè¡‹©h5ª”9Q  
+[2022/06/24 15:28:55 744] transport  1819 transport:try2send,#msg_q=  0  
+[2022/06/24 15:28:55 744] transport  482  [soc] [1] send ok  817  
+[2022/06/24 15:28:55 744] transport  1799 transport_obj.try2send | in  
+[2022/06/24 15:28:55 744] transport  1800 self.soc  udata(f4096a18) 
+[2022/06/24 15:28:55 744] transport  1801 self.connected  true  
+[2022/06/24 15:28:55 744] transport  1802 self.latesterr  0  
+[2022/06/24 15:28:55 744] transport  1819 transport:try2send,#msg_q=  0  
+[2022/06/24 15:28:55 744] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 744] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 744] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 746] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 746] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 746] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 746] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 746] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 746] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 746] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 746] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 746] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 747] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 747] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 747] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 747] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 747] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 747] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 747] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 747] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 747] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 751] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 751] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 751] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 752] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 752] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 752] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 752] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 752] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 752] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 753] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 753] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 753] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 753] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 753] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 753] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 753] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 753] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 753] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 753] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 753] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 753] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 754] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 754] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 754] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 754] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 754] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 754] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 754] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 754] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 754] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 755] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 755] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 755] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 755] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 755] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 755] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 755] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 755] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 755] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 755] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 755] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 755] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 756] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 756] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 756] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 756] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 756] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 756] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 757] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 757] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 757] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 757] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 757] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 757] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 757] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 757] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 757] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 767] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 767] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 767] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 767] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 767] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 767] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 767] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 767] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 767] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 767] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 767] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 767] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 769] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 769] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 769] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 769] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 769] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 769] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 769] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 769] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 769] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 771] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 772] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 772] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 772] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 772] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 772] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 772] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 772] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 772] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 773] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 773] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 773] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 773] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 773] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 773] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 773] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 773] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 773] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 774] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 774] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 774] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 774] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 774] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 774] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 774] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 774] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 774] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 774] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 774] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 774] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 774] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 774] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 774] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 774] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 774] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 774] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 775] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 775] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 775] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 775] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 775] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 775] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 775] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 775] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 775] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 775] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 775] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 775] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 775] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 775] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 775] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 775] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 775] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 775] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 775] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 775] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 776] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 776] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 776] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 776] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 776] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 776] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 776] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 776] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 776] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 776] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 777] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 777] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 778] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 778] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 778] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 778] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 778] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 778] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 778] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 778] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 778] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 778] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 778] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 778] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 778] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 778] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 778] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 778] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 778] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 778] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 778] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 778] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 778] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 778] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 778] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 778] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 778] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 779] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 779] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 779] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 779] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 779] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 779] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 779] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 779] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 779] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 779] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 779] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 779] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 779] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 779] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 779] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 780] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 780] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 780] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 780] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 780] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 780] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 780] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 780] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 780] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 780] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 780] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 780] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 780] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 780] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 780] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 780] network    350  connected  ns2  
+[2022/06/24 15:28:55 781] network    353  send ok  268  ns2  
+[2022/06/24 15:28:55 781] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 781] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 781] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 781] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 781] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 781] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 781] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 781] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 781] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 781] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 781] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 781] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 781] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 781] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 781] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 781] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 781] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 781] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 782] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 782] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 782] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 782] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 782] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 782] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 782] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 782] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 782] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 782] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 782] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 782] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 782] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 782] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 782] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 782] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 782] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 782] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 782] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 782] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 782] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 782] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 782] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 782] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 783] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 783] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 783] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 783] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 783] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 783] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 783] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 783] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 783] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 783] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 783] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 783] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 783] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 783] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 783] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 783] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 783] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 783] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 783] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 783] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 783] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 783] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 783] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 783] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 783] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 783] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 783] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 784] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 784] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 784] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 784] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 784] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 784] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 784] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 784] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 784] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 784] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 784] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 784] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 784] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 784] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 784] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 784] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 784] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 784] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 784] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 784] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 784] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 785] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 785] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 785] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 785] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 785] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 785] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 785] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 785] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 785] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 785] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 785] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 785] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 785] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 785] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 785] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 785] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 785] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 785] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 786] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 786] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 786] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 786] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 786] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 786] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 786] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 786] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 786] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 786] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 786] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 786] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 786] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 786] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 786] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 786] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 786] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 786] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 786] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 786] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 786] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 786] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 786] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 786] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 787] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 787] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 787] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 787] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 787] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 787] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 787] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 787] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 787] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 787] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 787] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 787] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 787] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 787] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 787] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 787] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 787] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 787] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 787] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 787] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 787] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 787] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 787] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 787] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 787] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 787] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 787] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 787] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 787] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 788] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 788] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 788] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 788] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 788] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 788] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 788] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 788] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 788] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 788] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 788] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 788] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 788] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 788] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 788] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 788] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 788] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 788] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 788] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 788] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 788] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 788] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 788] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 788] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 788] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 788] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 788] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 788] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 789] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 789] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 789] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 789] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 789] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 789] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 789] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 789] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 789] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 789] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 789] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 789] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 789] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 789] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 789] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 789] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 789] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 789] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 789] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 789] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 789] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 789] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 789] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 789] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 789] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 789] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 789] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 790] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 790] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 790] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 790] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 790] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 790] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 790] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 790] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 790] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 790] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 790] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 790] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 790] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 790] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 790] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 790] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 790] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 790] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 794] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 794] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 794] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 795] transport  494  [soc] [1] readable  
+[2022/06/24 15:28:55 795] transport  1767 HTTP/1.1 200 OK
+Content-Type: binary/audio
+Content-Length: 3672
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d17658500480&cver=5%2E0%2E44%2E1288&ofg=1&ced=21&key=0daW2zxGwRh9jlBCza189JuEQBYCme^CAuPA89nM11oP6cacJAk0EnHbJmaKw2hiec
+Content-Encoding: speex-wb,encrypt/0.2
+X-Req-Date: 2022/06/24 15:28:55 747
+CL: 3672
+X-Res-Date: 2022/06/24 15:28:55 775
+
+`~Ò„élúúúúúúú·V¿  
+[2022/06/24 15:28:55 795] transport  1767 FuãPÆC+0wÏëã„’nãÿ’uê"·mC/êB≥À]ÛƒNŒÍvîMXªèN¬«0Y£HFæ!ØrY¯·6v[◊ÿbw”xëë¶Mö”µº˜âb"Ìô≤1ê6ç}fÖ˝^ÍpFπ$5qﬂp˝cHB.üZM[ıGWÄ°52A˜®áÇu°ÄK˙˛„@ób|ûÉÑd?ÓóU^__éË˜„ﬁ˜‹ﬂÊ˙5vBÇ„HB"›:EŒ9£3Êõôc+J_©»˚¿•Ä»-G–oãöÄÇF2©ZW˙V{wO^≤'.aáIGÄXÄÒ3HD  T#AVaàtL;¿5Ûq+O◊xë}±Â9öŸÚ¶˜á≤ÛP>"Ï^ÇJtt˛Q2<ëÜ`O}˜%#ìHD(‘Q"xñ√EklV¥s6!iõï±«Ó7¨√Rü≤dãuß±¢˚_ó Æí «'à[ß©÷a˛CHE≤q≤ı—ÍÄxﬂ¡Ë_Ï|˝kä9%tîÜÜ•Ñ»•ºª$n∆õñÔüoü1.√∏Ö˛ìÅÑPaE`[ß$éCHB3¡√cV¬ÀŸ6S˝ø£xëL∫Ré”{vÅñ!Xb˛Ñc+‚W'∏Ç‡ä,Aá>ìáHmñ‰V…Ûóã3HB*¡AÃiVıóãu±zπÚZ¿ip_˛≥ö√øµ¢~Õ±¯P'õï®§r‡ö¨k"®&âX—“VÇ⁄„H@+hGÌUEÇ4pv]{Â+Wß´P»ig¸ºÛπ™y§@ì&JyŸb√ùÅ.≤á_ß‡§“ÿ1Å¡±'Äï§§8Ω⁄¿ö-!M%e£P!Æßô°‚¯ºÓÇiW_*¡.YIrYnœ˛±QûMê(˘#iwRCHF)„∂ÃZP[ª16YxndÂ∫3c∑>9õÛüÛáµáo‰‡±˜ß¬«˙-ùÅŸ=ëˆàsV˘⁄îÖI‰õ™√HAô·?j 3vB0-<Mjzõkêwå∞Ur”(πbéπ…åe∑kqÅ“Úì!éá.L‘áÜ§±≈√«±«„HAôÒmö|"'‹d7øƒxÂ!ù£°0†KÒ√‰åx5†h◊6É7;n€¡÷ûM¥ôÈ‰)≈t ùM3ıOŸ,6gC`^Í/böl…_˛©W*ÈÎKçπVÒ[1•6ÚVn‡{∑ÃÉ’|GbæOπŸ¡Ò¡„¡ŸHD(öV°
+i»ú$èØ√G‚â ]Ç≈ù l,0∑3€Ç*}¢lc”hL[cÑN°©'ÓOÑπŸÇY∏xÉHD(¥T¶NÍ≈"!¸
+[2022/06/24 15:28:55 795] transport  1767 ¡ Ù-ÿ√HD(Çw°·=~´ÅﬂÀ≥Ëπh!˘∏õ¥≠7√úﬁC(éN5‘KRWmñ“Ω^ÑŒœ*´	µ}>/£HE8û7yU¬Q[ªŸ5Ú‹ÕŸo1˜—Å∫º&Éï∆ÚhôU“6ï€eo8Ûé≥:wóûÜ:7Ÿ_sHE+E¥éy⁄≠3xâB√Ù°*Ä˛s∫ìÌ∫w∏æDJôá∂\P)d}ˇ1*Ã~≥oŸ':’g_√FHA"¡œeE»fˆR,KxÌVÂ#|M!0o8¶0üıó=iVœ0R–>g]ic9;é±ˆ6Óˆ®cÖÜı·„ìH@FÉÂNcæÌúúª€GŸv£.ÖØ¯·Ö¡r~r5∂Ü◊U¬ì:ÅÜ{n+1∞zá;Â—*}·µósH@P∏ScnÍŒ€ÓÏã€kÓ˙+9	+xSªG±ssˆn¯È¬FW˜Àò1 Îá<Hé˜Ã‘¸=ÂüúÙÆOcHCBƒÁ _»ˇ∏_KÅ√Òù÷éﬂ˛≤íÿÿ‰Ùp:Y
+~^XXTÒkyikybÀ~O|˛U«ô¡Ÿ¡ŸHCÏÊ›4wètÑÇ—ÍÃπuCª;“%XÒd∑˛FYNFÙYik{{{{{~N˜¡Ÿ¡Ÿ¡Ÿ¡ŸHFøP£-ä  
+[2022/06/24 15:28:55 795] transport  1767 ]òUnëÙ24J>‰∫3t¡√ÛHF$¡—√_⁄ûÌ˝.ˇúx‚+p÷]•s’¶É€ﬂ.+|ñ≥
+2I9ZW∆síÅ•nè¥∆nîûM%p∆Üπ˝ö›$òrAEãY0C¶êLLÌ;w˚ôµrzh‡yk  
+[2022/06/24 15:28:55 795] transport  1494 a_complete_httpmessage  200  
+[2022/06/24 15:28:55 795] transport  1604 is_update  true  
+[2022/06/24 15:28:55 795] tts_cloud  317  [trans] [tts_cloudctts1P1HHBH4Vbx8Hd+Ttaa1p+WxileqBrN] readable  
+[2022/06/24 15:28:55 795] tts_cloud  335  response  
+[2022/06/24 15:28:55 795] tts_cloud  392  sid =   tts000104e6@gz181949d25c44697812  
+[2022/06/24 15:28:55 795] tts_cloud  414  synth_parse_response| ssb time:  55  .  
+[2022/06/24 15:28:55 795] tts_cloud  415  text to first audio:  55  .  
+[2022/06/24 15:28:55 795] tts_cloud  478  theory decode audiolen:  38400  ,ced:  21  ,markinfo:  nil  
+[2022/06/24 15:28:55 795] tts_cloud  479  audioinfo_rd:  0  ,audioinfo_num:  0  
+[2022/06/24 15:28:55 795] tts_cloud  793  aud_data:len()=  3660  
+[2022/06/24 15:28:55 795] tts_cloud  738  send fch request  
+[2022/06/24 15:28:55 795] transport  1860 transport_obj.send | in  
+[2022/06/24 15:28:55 795] transport  1866 self.msg_flag_q  table(f4086ee0) 
+[2022/06/24 15:28:55 796] transport  1867 self.msg_q  table(f4086e90) 
+[2022/06/24 15:28:55 796] transport  1799 transport_obj.try2send | in  
+[2022/06/24 15:28:55 796] transport  1800 self.soc  udata(f4096a18) 
+[2022/06/24 15:28:55 796] transport  1801 self.connected  true  
+[2022/06/24 15:28:55 796] transport  1802 self.latesterr  0  
+[2022/06/24 15:28:55 796] transport  1819 transport:try2send,#msg_q=  1  
+[2022/06/24 15:28:55 796] transport  1359 build http request.  
+[2022/06/24 15:28:55 796] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: tts
+X-Par: ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E44%2E1288&key=0daW2zxGwRh9jlBCza189JuEQBYCme^CAuPA89nM11oP5Q88KmQFXgvrJmaKw2hiec
+Host: open.xf-yun.com
+CT: text/plain
+CL: 1
+
+0  
+[2022/06/24 15:28:55 797] transport  1819 transport:try2send,#msg_q=  0  
+[2022/06/24 15:28:55 798] transport  1873 transport_obj.send | out  
+[2022/06/24 15:28:55 798] transport  482  [soc] [1] send ok  217  
+[2022/06/24 15:28:55 798] transport  1799 transport_obj.try2send | in  
+[2022/06/24 15:28:55 798] transport  1800 self.soc  udata(f4096a18) 
+[2022/06/24 15:28:55 798] transport  1801 self.connected  true  
+[2022/06/24 15:28:55 798] transport  1802 self.latesterr  0  
+[2022/06/24 15:28:55 798] transport  1819 transport:try2send,#msg_q=  0  
+[2022/06/24 15:28:55 798] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 798] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 798] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 798] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 798] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 798] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 798] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 798] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 798] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 799] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 799] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 799] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 799] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 799] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 799] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 799] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 799] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 799] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 799] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 799] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 799] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 799] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 799] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 799] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 799] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 799] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 799] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 800] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 800] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 800] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 800] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 800] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 800] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 800] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 800] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 800] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 800] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 800] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 800] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 800] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 800] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 800] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 802] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 802] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 802] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 804] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 804] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 804] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 804] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 804] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 804] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 804] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 804] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 804] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 804] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 804] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 805] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 805] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 805] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 805] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 805] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 805] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 805] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 805] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 805] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 805] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 805] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 805] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 805] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 805] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 805] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 805] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 805] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 805] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 805] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 805] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 805] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 805] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 806] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 806] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 806] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 806] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 806] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 806] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 806] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 806] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 806] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 806] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 806] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 806] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 806] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 806] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 806] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 806] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 806] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 806] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 806] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 806] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 806] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 806] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 806] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 806] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 806] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 806] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 806] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 807] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 807] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 807] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 807] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 807] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 807] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 807] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 807] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 807] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 807] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 807] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 807] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 807] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 807] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 807] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 808] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 808] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 808] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 808] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 808] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 808] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 808] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 808] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 808] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 808] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 808] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 808] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 808] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 808] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 808] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 808] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 808] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 808] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 808] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 808] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 808] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 809] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 809] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 809] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 809] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 809] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 809] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 809] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 809] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 809] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 809] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 809] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 809] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 809] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 809] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 809] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 809] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 809] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 809] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 810] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 810] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 810] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 810] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 810] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 810] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 810] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 810] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 810] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 810] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 810] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 810] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 810] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 810] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 810] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 810] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 810] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 810] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 810] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 810] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 810] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 810] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 811] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 811] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 811] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 811] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 811] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 811] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 811] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 811] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 811] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 811] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 811] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 811] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 811] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 811] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 811] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 811] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 811] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 811] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 811] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 811] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 812] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 812] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 812] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 812] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 812] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 812] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 812] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 812] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 812] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 812] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 812] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 812] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 812] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 812] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 812] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 812] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 812] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 812] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 812] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 812] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 812] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 813] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 813] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 813] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 813] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 813] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 813] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 813] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 813] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 813] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 813] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 813] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 813] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 813] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 813] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 813] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 813] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 813] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 813] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 813] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 813] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 813] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 813] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 813] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 813] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 813] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 813] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 813] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 814] tts_cloud  703  u_aul =  38400  audiolen =  38400  
+[2022/06/24 15:28:55 814] tts_cloud  800  aud_data = nil  
+[2022/06/24 15:28:55 814] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 814] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 814] tts_cloud  1242 actual decode audiolen:  38400  ,ced:  21  ,markinfo:  nil  
+[2022/06/24 15:28:55 814] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 814] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 814] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 814] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 814] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 814] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 814] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 814] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 814] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 814] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 814] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 814] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 814] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 814] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 814] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 814] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 815] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 815] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 815] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 815] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 815] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 815] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 815] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 815] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 815] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 815] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 815] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 815] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 815] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 815] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 815] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 815] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 815] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 815] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 815] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 815] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 815] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 815] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 815] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 815] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 815] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 815] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 815] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 815] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 815] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 815] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 816] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 816] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 816] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 816] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 816] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 816] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 816] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 816] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 816] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 816] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 816] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 816] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 816] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 816] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 816] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 816] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 816] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 816] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 816] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 816] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 816] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 816] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 816] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 816] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 816] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 816] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 816] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 817] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 817] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 817] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 817] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 817] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 817] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 817] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 817] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 817] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 817] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 817] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 817] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 817] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 817] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 817] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 817] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 817] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 817] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 817] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 817] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 817] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 817] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 817] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 817] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 818] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 818] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 818] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 818] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 818] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 818] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 818] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 818] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 818] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 818] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 818] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 818] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 818] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 818] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 818] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 818] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 818] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 818] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 818] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 818] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 818] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 818] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 818] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 818] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 818] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 818] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 818] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 818] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 818] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 818] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 819] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 819] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 819] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 819] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 819] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 819] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 819] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 819] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 819] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 819] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 819] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 819] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 819] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 819] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 819] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 819] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 819] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 819] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 819] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 819] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 819] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 819] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 819] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 819] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 819] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 819] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 819] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 819] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 820] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 820] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 820] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 820] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 820] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 820] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 820] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 820] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 820] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 820] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 820] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 820] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 820] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 820] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 820] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 820] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 820] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 820] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 820] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 820] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 820] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 820] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 820] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 820] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 820] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 820] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 820] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 820] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 821] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 821] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 821] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 821] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 821] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 821] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 821] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 821] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 821] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 821] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 821] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 821] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 821] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 821] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 821] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 821] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 821] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 821] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 821] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 821] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 821] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 821] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 821] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 821] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 821] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 821] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 821] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 821] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 822] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 822] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 822] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 822] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 822] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 822] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 822] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 822] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 822] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 822] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 822] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 822] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 822] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 822] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 822] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 822] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 822] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 822] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 822] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 822] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 822] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 822] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 822] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 822] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 822] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 822] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 822] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 823] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 823] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 823] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 823] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 823] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 823] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 823] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 823] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 823] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 823] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 823] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 823] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 823] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 823] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 823] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 823] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 824] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 825] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 825] transport  494  [soc] [1] readable  
+[2022/06/24 15:28:55 826] transport  1767 HTTP/1.1 200 OK
+Content-Length: 3240
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E44%2E1288&ofg=1&ced=21&key=0daW2zxGwRh9jlBCza189JuEQBYCme^CAuPA89nM11oP5Q88KmQFXgvrJmaKw2hiec
+CT: binary/audio
+CE: speex-wb,encrypt/0.2
+CL: 3240
+X-Req-Date: 2022/06/24 15:28:55 802
+CL: 3240
+X-Res-Date: 2022/06/24 15:28:55 811
+
+™Ó;∞,sÊOúúúúúúú‰t¿  
+[2022/06/24 15:28:55 826] transport  1767 æx9VV˜	ﬁÃ'ﬁ÷FQºqóÛHCJ´ˆ~LAÏ≠mÏP≠DÓx.òÿnÑH~ÓBF¸±∑Î∆t˝Ñ1£`xgQÓ^Ú796Íy∆Y≥HDµE‘©£“ã–◊∑r{3‡6bπ∞w˜yW&WÎX-ìj?ﬁ9‘÷*‚ÓÀÑÙ‰z‰DT⁄Ê°„HD°a‘MÊvB∏kEA‰F©Cà›¬zÆì˛ç'q/,ÃB Eèu÷)Œ“ƒB®ãnœÑmÑΩôÙ4‘	›H@NäW~YØÀmºº°_ﬁÒäÄÖã∫éö“H-∂1y≥ˆhÅÖ–Buﬂ€yn”wh<™≤î˜ŸVÅ#HA¿“,ë°/√®Aaxåƒ≈¢C`(òÿ¨,‚ıâÜüûŒX]ªuœå€qûON»vàgå	V<ÊTú√HD^•ó(-Ö5B€€±uÓÒr°5Eç÷„πvô˘y
+‘˙5K|Ø®+ÚÎL˛OÖÔ8Ù@Ÿ∆ôÙ¡ŸHG·à6ÙNwA7{TTTTTtJ¥(Cxî†ãèÅΩûŒnNNNNN[¥SiiiiiiinO¡Ÿ¡Ÿ¡Ÿ¡ŸHGœb˚Ætúúúúúúúçà@  
+[2022/06/24 15:28:55 826] transport  1767 –7Ïé@•ÿØ"˛ŒM¡πóH›UN•éí$Ω®E*œhﬁªÿêÕcHG(Ωbm{Õ˝lS-∑≠Z:ßS∏—Ä8rS˚˜∏ 8í&†óã•≤ï ˜_ë+6∆ÂﬂñeÆ66HB6Ç¿¡§´xeU»::Ø˘3]ogÄ˜9£°”ÆX>fFJZ“õ=¯áMröÀnËˆ…˜óÙú¿¬–É9„HG.´‚Êi•≤Ï≥ûiÔ–®ØàÔWfØV¬œG°2`i≥a˛õÎ¨«1°ÓÇâúﬁ+guœ&ïDDxe≈,„HG4˝„∏s·c¬™•§¢˙+ùﬁ9≥ ◊üdÎﬁ£Ø˚˙º≥hõ-s˜?:ñP˛ç™X»»†~Là‹tHF¯ÙÜ~√èé_∞∂æ1›3¬’2˛AŸrµßø÷H®Ãn§°BPÚ˝ûèΩÿ+%$0˛πHFÛFNs∏]ø±îNC≈ù-Ï¢#3+Ö‡ÂQmQ'ÿ.^PTwÙ45t◊ag¢nœ5TW}ï9Ÿ¡ŸHBÈÓTËuqDåúúæt¿  
+[2022/06/24 15:28:55 826] transport  1767 Z>Z$hÔ>Åè¸
+”§vÀn‚<K˝5ÚV¨Aò-ehywæ4DR;Ù¡T“I£gëâg(¯Aÿ}#∞ÿ<´[ñq°ò6`ﬁ6§Ù
+NÔ«åÀbSEàGçùö¡óû´4¸Ëƒ5’u‚ÖıƒHB?Çæ£{jﬂÏ€SöOàÖY»ßÿÖïiò®w¯÷∫Ê¬3˝àì—2°˘DïÁÀPÓ)UHº∆˘5”eV√HG ºìLHùLŸ 0ÖÂú¬Aÿ±ˆx:aãàH7BFï;ﬂOo8’ßﬂÇw¸2é±ıè¿ñ˚‘Ö)¶Ä|„HB?Ç’CyÈ(ÁÔÕ)%Ì9rÏ‘F∫œx9Vjwä“öæ¿Ü¡»¡á∑PüÜ.7◊8≥ˇKïc;g<£HG(”©bÌV/†E£ı´‡|ÍÅ“ˆå¬ÿ`“˜ÎŒ.Cûxuñ{≥µ%1‘EÙÅ>GmÚñ–&tÜÃtÑsHCpq®</8˝a  
+[2022/06/24 15:28:55 826] transport  1494 a_complete_httpmessage  200  
+[2022/06/24 15:28:55 826] transport  1604 is_update  true  
+[2022/06/24 15:28:55 826] tts_cloud  317  [trans] [tts_cloudctts1P1HHBH4Vbx8Hd+Ttaa1p+WxileqBrN] readable  
+[2022/06/24 15:28:55 826] tts_cloud  335  response  
+[2022/06/24 15:28:55 826] tts_cloud  478  theory decode audiolen:  33920  ,ced:  21  ,markinfo:  nil  
+[2022/06/24 15:28:55 826] tts_cloud  479  audioinfo_rd:  1  ,audioinfo_num:  1  
+[2022/06/24 15:28:55 826] tts_cloud  793  aud_data:len()=  3233  
+[2022/06/24 15:28:55 826] tts_cloud  738  send fch request  
+[2022/06/24 15:28:55 826] transport  1860 transport_obj.send | in  
+[2022/06/24 15:28:55 826] transport  1866 self.msg_flag_q  table(f4086ee0) 
+[2022/06/24 15:28:55 826] transport  1867 self.msg_q  table(f4086e90) 
+[2022/06/24 15:28:55 826] transport  1799 transport_obj.try2send | in  
+[2022/06/24 15:28:55 826] transport  1800 self.soc  udata(f4096a18) 
+[2022/06/24 15:28:55 826] transport  1801 self.connected  true  
+[2022/06/24 15:28:55 826] transport  1802 self.latesterr  0  
+[2022/06/24 15:28:55 826] transport  1819 transport:try2send,#msg_q=  1  
+[2022/06/24 15:28:55 827] transport  1359 build http request.  
+[2022/06/24 15:28:55 827] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: tts
+X-Par: ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E44%2E1288&key=0daW2zxGwRh9jlBCza189JuEQBYCme^CAuPA89nM11oP6s2DurAZqtc7JmaKw2hiec
+Host: open.xf-yun.com
+CT: text/plain
+CL: 1
+
+0  
+[2022/06/24 15:28:55 827] transport  1819 transport:try2send,#msg_q=  0  
+[2022/06/24 15:28:55 827] transport  1873 transport_obj.send | out  
+[2022/06/24 15:28:55 827] transport  482  [soc] [1] send ok  217  
+[2022/06/24 15:28:55 827] transport  1799 transport_obj.try2send | in  
+[2022/06/24 15:28:55 827] transport  1800 self.soc  udata(f4096a18) 
+[2022/06/24 15:28:55 827] transport  1801 self.connected  true  
+[2022/06/24 15:28:55 827] transport  1802 self.latesterr  0  
+[2022/06/24 15:28:55 827] transport  1819 transport:try2send,#msg_q=  0  
+[2022/06/24 15:28:55 827] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 827] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 827] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 827] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 827] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 827] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 827] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 827] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 827] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 827] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 827] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 827] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 827] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 827] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 827] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 828] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 828] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 828] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 828] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 828] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 828] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 829] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 829] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 829] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 829] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 829] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 829] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 829] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 829] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 829] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 829] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 829] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 829] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 829] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 829] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 829] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 829] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 829] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 829] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 829] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 829] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 829] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 830] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 830] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 830] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 830] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 830] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 830] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 830] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 830] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 830] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 830] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 830] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 830] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 830] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 830] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 830] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 830] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 830] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 830] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 830] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 830] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 830] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 831] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 831] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 831] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 831] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 831] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 831] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 831] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 831] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 831] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 831] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 831] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 831] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 831] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 831] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 831] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 831] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 831] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 831] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 831] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 831] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 831] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 831] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 831] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 831] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 832] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 832] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 832] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 832] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 832] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 832] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 832] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 832] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 832] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 832] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 832] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 832] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 832] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 832] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 832] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 833] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 833] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 833] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 833] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 833] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 833] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 833] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 833] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 833] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 833] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 833] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 833] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 833] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 833] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 833] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 833] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 833] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 833] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 833] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 833] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 833] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 834] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 834] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 834] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 834] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 834] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 834] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 834] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 834] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 834] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 834] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 834] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 834] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 834] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 834] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 834] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 834] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 834] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 834] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 834] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 834] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 834] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 834] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 834] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 834] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 834] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 834] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 834] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 835] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 835] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 835] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 835] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 835] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 835] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 835] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 835] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 835] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 835] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 835] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 835] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 835] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 835] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 835] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 835] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 836] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 836] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 836] network    362  readable  ns2  
+[2022/06/24 15:28:55 836] network    366  HTTP/1.1 200 OK
+Date: Fri, 24 Jun 2022 07:28:55 GMT
+Content-Type: application/json
+Content-Length: 311
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"tts","ips":[{"ip":"59.107.24.11","port":980,"idc":"gz"},{"ip":"58.67.223.138","port":80,"idc":"gz"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"tts","ips":[{"ip":"58.67.223.138","port":80,"idc":"gz"}],"ttl":6000,"compel":0}]}]}  
+[2022/06/24 15:28:55 836] ns         253  name server http resp  0  
+[2022/06/24 15:28:55 836] ns         266  ns response OK for this time!  
+[2022/06/24 15:28:55 836] ns         277  from_server=  iflytek/hdns  
+[2022/06/24 15:28:55 837] ns         360  compel :  0  
+[2022/06/24 15:28:55 837] transport  1063 ns_ip =   59.107.24.11  
+[2022/06/24 15:28:55 837] transport  1064 ip_type =  assigned_ttsopen.xf-yun.com_host  
+[2022/06/24 15:28:55 837] ns         670  no data in ns_q  
+[2022/06/24 15:28:55 837] ns         671  conti_ns,ns_inprog =   1  
+[2022/06/24 15:28:55 837] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 837] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 837] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 837] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 837] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 837] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 837] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 837] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 837] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 837] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 837] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 837] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 838] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 838] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 838] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 838] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 838] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 838] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 838] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 838] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 838] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 838] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 838] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 838] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 838] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 838] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 838] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 838] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 838] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 838] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 838] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 838] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 838] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 839] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 839] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 839] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 839] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 839] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 839] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 839] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 839] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 839] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 839] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 839] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 839] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 839] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 839] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 839] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 840] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 840] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 840] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 840] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 840] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 840] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 840] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 840] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 840] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 840] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 840] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 840] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 840] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 840] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 840] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 840] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 840] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 840] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 840] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 841] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 841] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 841] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 841] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 841] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 841] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 841] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 841] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 841] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 841] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 841] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 841] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 841] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 841] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 841] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 841] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 841] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 841] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 841] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 841] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 841] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 841] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 841] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 841] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 841] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 841] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 841] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 841] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 841] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 842] tts_cloud  703  u_aul =  72320  audiolen =  72320  
+[2022/06/24 15:28:55 842] tts_cloud  800  aud_data = nil  
+[2022/06/24 15:28:55 842] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 842] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 842] tts_cloud  1242 actual decode audiolen:  33920  ,ced:  21  ,markinfo:  nil  
+[2022/06/24 15:28:55 842] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 842] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 842] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 842] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 842] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 842] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 842] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 842] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 842] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 842] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 842] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 842] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 842] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 842] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 842] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 842] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 843] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 843] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 843] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 843] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 843] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 843] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 843] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 843] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 843] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 843] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 843] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 843] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 843] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 843] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 843] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 843] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 843] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 843] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 843] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 843] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 843] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 844] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 844] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 844] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 844] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 844] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 844] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 844] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 844] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 844] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 844] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 844] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 844] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 844] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 844] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 844] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 844] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 844] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 844] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 844] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 844] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 844] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 844] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 844] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 844] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 844] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 844] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 844] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 845] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 845] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 845] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 845] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 845] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 845] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 846] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 847] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 847] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 847] transport  494  [soc] [1] readable  
+[2022/06/24 15:28:55 847] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1352
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E44%2E1288&ofg=2&ced=21&key=0daW2zxGwRh9jlBCza189JuEQBYCme^CAuPA89nM11oP6s2DurAZqtc7JmaKw2hiec
+CT: binary/audio
+CE: speex-wb,encrypt/0.2
+CL: 1352
+X-Req-Date: 2022/06/24 15:28:55 834
+CL: 1352
+X-Res-Date: 2022/06/24 15:28:55 839
+
+`π?¶ø∫≤$mö>xÎú:É{ˇ≤&EÙvá  
+[2022/06/24 15:28:55 847] transport  1767 íÆ˚	ºÈÅTŒé≈ÿ$¿9u©Ø©DV|#H@≠óÚ„^ñŒ[&0'p„ÂNeˆÔ@‰§ó!û~´ÀtÌú 3  
+[2022/06/24 15:28:55 847] transport  1494 a_complete_httpmessage  200  
+[2022/06/24 15:28:55 847] transport  1604 is_update  true  
+[2022/06/24 15:28:55 847] tts_cloud  317  [trans] [tts_cloudctts1P1HHBH4Vbx8Hd+Ttaa1p+WxileqBrN] readable  
+[2022/06/24 15:28:55 847] tts_cloud  335  response  
+[2022/06/24 15:28:55 847] tts_cloud  449  text to last audio:  108  .  
+[2022/06/24 15:28:55 847] tts_cloud  450  ssb to sse:  108  .  
+[2022/06/24 15:28:55 848] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  59.107.24.5  
+[2022/06/24 15:28:55 848] transport  981  cached ip is confirmed  
+[2022/06/24 15:28:55 848] transport  1332 [soc] disconnect   
+[2022/06/24 15:28:55 848] transport  991  transport clean  
+[2022/06/24 15:28:55 848] tts_cloud  478  theory decode audiolen:  14080  ,ced:  21  ,markinfo:  nil  
+[2022/06/24 15:28:55 848] tts_cloud  479  audioinfo_rd:  2  ,audioinfo_num:  2  
+[2022/06/24 15:28:55 848] tts_cloud  793  aud_data:len()=  1342  
+[2022/06/24 15:28:55 848] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 848] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 848] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 849] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 849] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 849] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 849] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 849] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 849] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 849] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 849] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 849] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 849] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 849] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 849] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 849] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 849] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 849] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 849] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 849] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 849] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 849] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 849] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 849] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 849] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 849] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 849] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 849] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 849] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 850] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 850] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 850] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 850] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 850] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 850] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 850] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 850] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 850] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 850] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 850] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 850] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 850] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 850] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 850] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 850] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 850] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 850] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 850] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 851] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 851] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 851] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 851] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 851] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 851] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 851] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 851] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 851] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 851] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 851] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 851] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 851] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 851] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 851] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 851] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 851] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 851] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 851] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 852] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 852] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 852] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 852] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 852] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 852] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 852] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 852] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 852] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 852] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 852] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 852] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 852] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 852] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 852] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 852] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 852] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 852] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 852] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 852] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 852] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 852] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 852] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 852] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 852] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 852] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 853] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 853] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 853] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 853] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 853] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 853] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 853] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 853] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 853] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 853] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 853] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 853] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 853] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 853] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 853] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 853] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 853] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 853] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 853] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 854] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 854] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 854] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 854] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 854] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 854] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 854] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 854] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 854] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 854] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 854] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 854] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 854] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 854] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 855] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 855] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 855] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 855] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 855] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 855] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 855] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 855] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 855] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 855] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 855] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 855] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 855] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 855] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 855] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2022/06/24 15:28:55 855] tts_cloud  696  last audio  
+[2022/06/24 15:28:55 856] tts_cloud  703  u_aul =  86400  audiolen =  86400  
+[2022/06/24 15:28:55 856] tts_cloud  800  aud_data = nil  
+[2022/06/24 15:28:55 856] tts        792  TTS_MSG_GETAUDIO  0  
+[2022/06/24 15:28:55 856] tts        674  get audio|use cloud  
+[2022/06/24 15:28:55 856] tts_cloud  1242 actual decode audiolen:  14080  ,ced:  21  ,markinfo:  nil  
+[2022/06/24 15:28:55 856] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  2  
+[2022/06/24 15:28:55 856] tts        795  TTS_MSG_SSE  
+[2022/06/24 15:28:55 856] tts        767  sse|use cloud  
+[2022/06/24 15:28:55 856] tts_cloud  1305 TTS_MSG_SSE_CLOUD  
+[2022/06/24 15:28:55 856] tts_cloud  853  tts session info  

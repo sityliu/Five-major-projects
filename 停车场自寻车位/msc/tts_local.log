@@ -1,0 +1,45 @@
+============================================================
+Time  2022/06/21 15:34:33 676 
+============================================================
+[2022/06/21 15:34:33 676] tts_local  1837 Linux  
+[2022/06/21 15:34:33 676] tts_local  1873 SYS_MSG_REGCB_LOCAL  
+[2022/06/21 15:34:33 676] tts_local  1888 last gc at  1655796873  
+[2022/06/21 15:34:33 676] tts_local  1873 SYS_MSG_REGCB_LOCAL  
+[2022/06/21 15:34:33 676] tts_local  1888 last gc at  1655796873  
+[2022/06/21 15:34:33 677] tts_local  1680 TTS_LOCAL_MSG_SSB  engine_type=local,voice_name=xiaoyan,text_encoding=UTF8,tts_res_path=fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet,sample_rate=16000,speed=50,volume=50,pitch=50,rdn=2  
+[2022/06/21 15:34:33 677] tts_local  1572 fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2022/06/21 15:34:33 677] tts_local  1575 nil  
+[2022/06/21 15:34:33 677] tts_local  862  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2022/06/21 15:34:33 677] tts_local  890  Disperse res  
+[2022/06/21 15:34:33 677] tts_local  994  fo|res/tts/xiaoyan.jet  fo|res/tts/common.jet  
+[2022/06/21 15:34:33 677] tts_local  1579 res_change is  true  
+[2022/06/21 15:34:33 677] tts_local  1595 res change  
+[2022/06/21 15:34:33 677] tts_local  1398 lgi:  nil  nil  
+[2022/06/21 15:34:33 677] tts_local  862  resource path:  fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet  
+[2022/06/21 15:34:33 677] tts_local  890  Disperse res  
+[2022/06/21 15:34:33 677] tts_local  852  file_type:  fo  file_path:  res/tts/xiaoyan.jet  
+[2022/06/21 15:34:33 677] tts_local  852  file_type:  fo  file_path:  res/tts/common.jet  
+[2022/06/21 15:34:33 677] tts_local  1426 fo  fo  res/tts/xiaoyan.jet  0  res/tts/common.jet  0  false  
+[2022/06/21 15:34:33 677] tts_local  1033 speech_plus_setting  0  
+[2022/06/21 15:34:33 677] tts_local  1041 fo  res/tts/xiaoyan.jet  0  0  
+[2022/06/21 15:34:33 677] tts_local  1045 res_ver  0  
+[2022/06/21 15:34:33 677] tts_local  1046 res appid5    
+[2022/06/21 15:34:33 677] tts_local  1047 res_new_old_mark  v5vn  
+[2022/06/21 15:34:33 677] tts_local  1048 res_usr_name    
+[2022/06/21 15:34:33 677] tts_local  1049 check ret  0  
+[2022/06/21 15:34:33 677] tts_local  1129 v5vn  
+[2022/06/21 15:34:33 678] tts_local  1188 now expires:  1655796873  1653818867  
+[2022/06/21 15:34:33 678] tts_local  1440 com res check failed:  11212  
+[2022/06/21 15:34:33 678] tts_local  1513 init check failed! ret =  11212  
+[2022/06/21 15:34:33 678] tts_local  1597 reinit ret:  11212  
+[2022/06/21 15:34:33 678] tts_local  1738 tts_local.ssb ret:  11212  
+[2022/06/21 15:34:33 678] tts_local  1746 TTS_LOCAL_MSG_TEXT  
+[2022/06/21 15:34:33 678] tts_local  1753 base64 =  5qyi6L+O57KkQUQ4OEc36L+b5YWl  
+[2022/06/21 15:34:33 678] tts_local  1758 local engine unstart  24007  
+[2022/06/21 15:34:33 679] tts_local  1795 TTS_LOCAL_MSG_END  11212  
+[2022/06/21 15:34:33 679] tts_local  1809 engine_obj not started successfuly!  
+[2022/06/21 15:34:33 679] tts_local  1199 plog_process  {"hints":"AudioGetError","dur":8,"stime":"2022/06/21 15:34:33 670","csid":"ctts1PdHHBH4+ynWkACSaa0zllSSmr-dXa","ret":11212,"u_txt":2}  nil  
+[2022/06/21 15:34:33 680] tts_local  1888 last gc at  1655796873  
+[2022/06/21 15:34:33 680] tts_local  1853 SYS_MSG_SHUTDOWN_LOCAL  
+[2022/06/21 15:34:33 680] tts_local  1857 Engine has been destroy already!  
+[2022/06/21 15:34:33 680] tts_local  1888 last gc at  1655796873  
